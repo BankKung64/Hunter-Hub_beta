@@ -2081,7 +2081,7 @@ Toggle.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Toggle.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 Toggle.Size = UDim2.new(0, 50, 0, 50)
 Toggle.Font = Enum.Font.Code
-Toggle.Text = "🐺"
+Toggle.Text = "⚙️"
 Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
 Toggle.TextScaled = true
 Toggle.MouseButton1Down:connect(function()
@@ -2089,7 +2089,7 @@ game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
 game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
 end)
 --------------------------------------------------------------------
-local RenUi = library:AddWindow("HUNTER HUB🐺",Enum.KeyCode.RightControl)
+local RenUi = library:AddWindow("𝐇𝐔𝐍𝐓𝐄𝐑 𝐇𝐔𝐁🐺",Enum.KeyCode.RightControl)
 --------------------------------------------------------------------
 local Main = RenUi:AddTab("Menu Farm","6026568198")
 local Combat = RenUi:AddTab("Player","7251993295")
@@ -2100,7 +2100,7 @@ local DevilFruit = RenUi:AddTab("Devil Fruit","7044233235")
 local Shop = RenUi:AddTab("Shop","6031265976")
 local Misc = RenUi:AddTab("Miscellaneous","6034509993")
 --------------------------------------------------------------------
-Main:AddSeperator("HUNTER HUB Beta 1.0.1 | BLOX-FRUIT🍩🐯 Updated 17.2⚙️ by Meguy✅")
+Main:AddSeperator("𝐇𝐔𝐍𝐓𝐄𝐑 𝐇𝐔𝐁 𝐁𝐞𝐭𝐚 𝟏.𝟎.𝟏 | 𝐁𝐋𝐎𝐗-𝐅𝐑𝐔𝐈𝐓🍩🐯 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝟏𝟕.𝟐⚙️ 𝐛𝐲 𝐌𝐞𝐠𝐮𝐲✅")
 Main:AddSeperator("Settings Farm")
 
 Time = Main:AddLabel("Server Time")
@@ -2230,8 +2230,8 @@ pcall(function()
 CameraShakerR:Stop()
 CombatFramework.activeController.attacking = false
 CombatFramework.activeController.timeToNextAttack = 0
-CombatFramework.activeController.increment = 0.75
-CombatFramework.activeController.hitboxMagnitude = 1000
+CombatFramework.activeController.increment = 1
+CombatFramework.activeController.hitboxMagnitude = 300
 CombatFramework.activeController.blocking = false
 CombatFramework.activeController.timeToNextBlock = 0
 CombatFramework.activeController.focusStart = 0
